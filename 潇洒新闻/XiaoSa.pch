@@ -1,0 +1,28 @@
+//
+//  XiaoSa.pch
+//  潇洒新闻
+//
+//  Created by NiceForMe on 16/5/11.
+//  Copyright © 2016年 NiceForMe. All rights reserved.
+//
+
+#ifndef XiaoSa_pch
+#define XiaoSa_pch
+
+#define LXWidth ([UIScreen mainScreen].bounds.size.width)
+#define LXHeight ([UIScreen mainScreen].bounds.size.height)
+#define LXStatusHeight [UIApplication sharedApplication].statusBarFrame.size.height
+#define LXNavigationBarHeight self.navigationController.navigationBar.frame.size.height
+#define LXTabbarHeight self.tabBarController.tabBar.frame.size.height
+
+//#ifdef DEBUG
+//#define NSLog(...) NSLog(__VA_ARGS__)
+//#define debugMethod() NSLog(@"%s", __func__)
+//#else
+//#define NSLog(...)
+//#define debugMethod()
+//#endif
+
+#endif 
+
+/* XiaoSa_pch */

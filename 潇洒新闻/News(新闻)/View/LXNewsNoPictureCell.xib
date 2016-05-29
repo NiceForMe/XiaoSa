@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="NoPictureCell" id="Ecz-sk-xlq" customClass="LXNewsNoPictureCell">
+            <rect key="frame" x="0.0" y="0.0" width="256" height="100"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Ecz-sk-xlq" id="rTW-nb-16k">
+                <rect key="frame" x="0.0" y="0.0" width="256" height="99"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Eo1-l0-YF4">
+                        <rect key="frame" x="10" y="15" width="300" height="20"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="涉嫌违纪；辖区内有西湖、西溪湿地两个国家5A级景区涉嫌违纪；辖区内有西湖、西溪湿地两个国家5A级景区涉嫌违纪；辖区内有西湖、西溪湿地两个国家5A级景区涉嫌违纪；辖区内有西湖、西溪湿地两个国家5A级景区" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3h1-PM-e3f">
+                        <rect key="frame" x="10" y="40" width="300" height="31"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="yWs-fz-v3O" userLabel="分割线">
+                        <rect key="frame" x="10" y="99" width="300" height="1"/>
+                        <color key="backgroundColor" red="0.87843137250000003" green="0.87450980389999999" blue="0.87058823529999996" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="1" id="6JD-c5-vYP"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="3h1-PM-e3f" firstAttribute="leading" secondItem="Eo1-l0-YF4" secondAttribute="leading" id="0Kb-Wl-SfC"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="yWs-fz-v3O" secondAttribute="trailing" constant="10" id="4qS-fs-Qjm"/>
+                    <constraint firstAttribute="trailing" secondItem="3h1-PM-e3f" secondAttribute="trailing" constant="10" id="4tj-GT-DdW"/>
+                    <constraint firstItem="Eo1-l0-YF4" firstAttribute="top" secondItem="rTW-nb-16k" secondAttribute="top" constant="15" id="AQ9-1K-efi"/>
+                    <constraint firstItem="3h1-PM-e3f" firstAttribute="leading" secondItem="rTW-nb-16k" secondAttribute="leading" constant="10" id="Hf4-lJ-fXP"/>
+                    <constraint firstItem="yWs-fz-v3O" firstAttribute="leading" secondItem="rTW-nb-16k" secondAttribute="leading" constant="10" id="MLN-dM-6bn"/>
+                    <constraint firstItem="Eo1-l0-YF4" firstAttribute="leading" secondItem="rTW-nb-16k" secondAttribute="leading" constant="10" id="Vby-8w-yDa"/>
+                    <constraint firstAttribute="trailing" secondItem="yWs-fz-v3O" secondAttribute="trailing" constant="10" id="fnO-Fl-FTe"/>
+                    <constraint firstItem="3h1-PM-e3f" firstAttribute="top" secondItem="Eo1-l0-YF4" secondAttribute="bottom" constant="5" id="hP3-Ze-MR6"/>
+                    <constraint firstAttribute="trailing" secondItem="Eo1-l0-YF4" secondAttribute="trailing" constant="10" id="nuq-oZ-BGE"/>
+                    <constraint firstItem="yWs-fz-v3O" firstAttribute="leading" secondItem="rTW-nb-16k" secondAttribute="leadingMargin" constant="10" id="r07-cs-NwE"/>
+                    <constraint firstItem="Eo1-l0-YF4" firstAttribute="top" secondItem="yWs-fz-v3O" secondAttribute="bottom" id="ydI-Fm-7Pr"/>
+                </constraints>
+                <variation key="default">
+                    <mask key="constraints">
+                        <exclude reference="ydI-Fm-7Pr"/>
+                        <exclude reference="Hf4-lJ-fXP"/>
+                        <exclude reference="4qS-fs-Qjm"/>
+                        <exclude reference="r07-cs-NwE"/>
+                    </mask>
+                </variation>
+            </tableViewCellContentView>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="yWs-fz-v3O" secondAttribute="bottom" id="LTK-b6-Zz9"/>
+            </constraints>
+            <connections>
+                <outlet property="desLable" destination="3h1-PM-e3f" id="lmW-Hj-7jJ"/>
+                <outlet property="seperatorLine" destination="yWs-fz-v3O" id="0Mt-Gu-Uq5"/>
+                <outlet property="titleLable" destination="Eo1-l0-YF4" id="BqJ-30-qRl"/>
+            </connections>
+            <point key="canvasLocation" x="288" y="303"/>
+        </tableViewCell>
+    </objects>
+</document>
